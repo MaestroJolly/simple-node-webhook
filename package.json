@@ -1,0 +1,25 @@
+{
+  "name": "rave-loggly-webhook",
+  "version": "1.0.0",
+  "description": "this is a webhook package for rave SDK on loggly",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhook",
+    "rave",
+    "loggly"
+  ],
+  "author": "maestroJolly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-winston": "^3.0.0",
+    "nodemon": "^1.18.4",
+    "winston": "^3.1.0",
+    "winston-loggly-bulk": "^2.0.3"
+  }
+}
